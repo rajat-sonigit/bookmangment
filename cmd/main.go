@@ -8,7 +8,6 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/rajat-sonigit/go-bookstore/pkg/routes"
 )
-
 func main() {
 	r := mux.NewRouter()
 	routes.RegisterBookStore(r)
