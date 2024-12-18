@@ -15,6 +15,4 @@ func main() {
 	fmt.Printf("Port started")
 	http.Handle("/", r)
 	log.Fatal(http.ListenAndServe("localhost:9010", r))
-	
-
 }
