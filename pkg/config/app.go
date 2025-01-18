@@ -7,7 +7,6 @@ import (
 var (
 	db *gorm.DB
 )
-
 func Connect() {
 	d, err := gorm.Open("mysql", "rajat:Rajat0987@/simplerest?charset=utf8&parseTime=True&loc=local")
 	if err != nil {
