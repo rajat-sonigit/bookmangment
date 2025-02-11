@@ -11,7 +11,6 @@ import (
 	"github.com/rajat-sonigit/go-bookstore/pkg/utills"
 )
 var NewBook models.Book
-
 func GetBook(w http.ResponseWriter, r *http.Request) {
 	newBooks := models.GetAllBook()
 	res, _ := json.Marshal(newBooks)
