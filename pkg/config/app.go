@@ -13,7 +13,6 @@ func Connect() {
 		panic(err)
 	}
 	db = d
-	
 }
 func GetDB() *gorm.DB {
 	return db
