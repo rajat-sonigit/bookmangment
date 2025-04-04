@@ -5,7 +5,6 @@ import (
 	"github.com/rajat-sonigit/go-bookstore/pkg/config"
 )
 var db *gorm.DB
-
 type Book struct {
 	gorm.Model
 	Name        string `gorm:"" json:"name"`
